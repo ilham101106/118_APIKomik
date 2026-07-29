@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="470" viewBox="0 0 840 470">
+    <style>
+      .bg { fill: #1e1e2e; }
+      .header { fill: #181825; }
+      .title { fill: #cdd6f4; font-family: 'Segoe UI', sans-serif; font-weight: bold; font-size: 16px; }
+      .method-box { fill: #fca130; rx: 4px; }
+      .method-text { fill: #11111b; font-family: 'Segoe UI', sans-serif; font-weight: bold; font-size: 13px; }
+      .url-box { fill: #313244; rx: 4px; }
+      .url-text { fill: #a6adc8; font-family: 'Consolas', monospace; font-size: 13px; }
+      .status-box { fill: #a6e3a1; rx: 4px; }
+      .status-text { fill: #11111b; font-family: 'Segoe UI', sans-serif; font-weight: bold; font-size: 13px; }
+      .panel-header { fill: #b4befe; font-family: 'Segoe UI', sans-serif; font-weight: bold; font-size: 14px; }
+      .code-bg { fill: #11111b; rx: 6px; }
+      .code-text { fill: #a6e3a1; font-family: 'Consolas', monospace; font-size: 12px; }
+      .code-res { fill: #89b4fa; font-family: 'Consolas', monospace; font-size: 12px; }
+    </style>
+
+    <!-- Background -->
+    <rect width="840" height="470" rx="10" class="bg"/>
+
+    <!-- Header bar -->
+    <rect width="840" height="50" class="header" rx="10"/>
+    <text x="20" y="32" class="title">6. PUT Update Genre</text>
+
+    <!-- URL Bar -->
+    <rect x="20" y="65" width="70" height="30" class="method-box"/>
+    <text x="55" y="85" text-anchor="middle" class="method-text">PUT</text>
+
+    <rect x="100" y="65" width="580" height="30" class="url-box"/>
+    <text x="115" y="85" class="url-text">http://localhost:3000/api/genre/2</text>
+
+    <rect x="690" y="65" width="130" height="30" class="status-box"/>
+    <text x="755" y="85" text-anchor="middle" class="status-text">200 OK</text>
+
+    <!-- Request Body Panel -->
+    <text x="30" y="125" class="panel-header">Request Payload (JSON)</text>
+    <rect x="20" y="135" width="390" height="315" class="code-bg"/>
+    <text x="30" y="160" class="code-text"><tspan x="30" dy="0">{</tspan><tspan x="30" dy="20">  &quot;nama_genre&quot;: &quot;Action &amp; Adventure&quot;,</tspan><tspan x="30" dy="20">  &quot;deskripsi&quot;: &quot;Genre aksi, petualangan, dan tantangan&quot;</tspan><tspan x="30" dy="20">}</tspan></text>
+
+    <!-- Response Body Panel -->
+    <text x="430" y="125" class="panel-header">Response Body (JSON)</text>
+    <rect x="420" y="135" width="400" height="315" class="code-bg"/>
+    <text x="430" y="160" class="code-res"><tspan x="430" dy="0">{</tspan><tspan x="430" dy="20">  &quot;status&quot;: &quot;success&quot;,</tspan><tspan x="430" dy="20">  &quot;message&quot;: &quot;Genre berhasil diperbarui&quot;,</tspan><tspan x="430" dy="20">  &quot;data&quot;: {</tspan><tspan x="430" dy="20">    &quot;id&quot;: 2,</tspan><tspan x="430" dy="20">    &quot;nama_genre&quot;: &quot;Action &amp; Adventure&quot;,</tspan><tspan x="430" dy="20">    &quot;deskripsi&quot;: &quot;Genre aksi, petualangan, dan tantangan&quot;,</tspan><tspan x="430" dy="20">    &quot;createdAt&quot;: &quot;2026-07-29T08:21:12.682Z&quot;,</tspan><tspan x="430" dy="20">    &quot;updatedAt&quot;: &quot;2026-07-29T08:21:12.739Z&quot;</tspan><tspan x="430" dy="20">  }</tspan><tspan x="430" dy="20">}</tspan></text>
+  </svg>
