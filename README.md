@@ -89,34 +89,34 @@ JWT_SECRET=supersecretkey_118_apikomik
 Berikut adalah dokumentasi hasil pengujian response API untuk setiap endpoint yang diwajibkan:
 
 ### 1. POST Register User
-![POST Register](screenshots/post_register.svg)
+![POST Register](screenshots/post_register.png)
 
 ### 2. POST Login User
-![POST Login](screenshots/post_login.svg)
+![POST Login](screenshots/post_login.png)
 
 ### 3. POST Genre (Tambah Genre)
-![POST Genre](screenshots/post_genre.svg)
+![POST Genre](screenshots/post_genre.png)
 
 ### 4. POST Komik (Tambah Komik)
-![POST Komik](screenshots/post_komik.svg)
+![POST Komik](screenshots/post_komik.png)
 
 ### 5. GET Genre (Lihat Seluruh Genre)
-![GET Genre](screenshots/get_genre.svg)
+![GET Genre](screenshots/get_genre.png)
 
 ### 6. PUT Genre (Update Genre)
-![PUT Genre](screenshots/put_genre.svg)
+![PUT Genre](screenshots/put_genre.png)
 
 ### 7. DELETE Genre (Hapus Genre)
-![DELETE Genre](screenshots/delete_genre.svg)
+![DELETE Genre](screenshots/delete_genre.png)
 
 ### 8. GET Komik (Lihat Seluruh Komik)
-![GET Komik](screenshots/get_komik.svg)
+![GET Komik](screenshots/get_komik.png)
 
 ### 9. PUT Komik (Update Komik)
-![PUT Komik](screenshots/put_komik.svg)
+![PUT Komik](screenshots/put_komik.png)
 
 ### 10. DELETE Komik (Hapus Komik)
-![DELETE Komik](screenshots/delete_komik.svg)
+![DELETE Komik](screenshots/delete_komik.png)
 
 ---
 
