@@ -1,0 +1,32 @@
+{
+  "name": "118_api_komik",
+  "version": "1.0.0",
+  "description": "RESTful API Komik dan Genre dengan JWT Auth",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "express",
+    "sequelize",
+    "jwt",
+    "komik",
+    "genre",
+    "api"
+  ],
+  "author": "ilham101106",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.13.1",
+    "sequelize": "^6.37.5",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
